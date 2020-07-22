@@ -1,0 +1,43 @@
+{
+
+    "config":
+    {
+
+        "parent": "game01",
+        "width": 640,
+        "height": 360,
+        "backgroundColor": "0x101010",
+
+        "physics":
+        {
+            "default": "matter",
+            "matter":
+            {
+                "gravity":
+                {
+                    "y": 9.8,
+                    "x": 0
+                },
+                "debug": true,
+                "debugNOSEE":
+                {
+                    "showBody": true
+                },
+                "debugOff": true
+            }
+        },
+
+        "url": "http://asteroid150.ayz.pl/test03",
+        "version": "0.01",
+        "disableContextMenu": true,
+
+        "banner":
+        {
+            "hidePhaser": true
+        },
+
+        "transparent": false
+
+    }
+
+}
